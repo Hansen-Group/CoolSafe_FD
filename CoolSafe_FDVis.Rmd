@@ -348,6 +348,8 @@ do.call('grid.arrange',c(RunList, ncol = 2))
 dev.off()
 }
 
+##Have to define a width and height that works for the number of runs, not made automatic
+#Optimized for 16 runs pdf("ShelfTAll.pdf", width=5, height=25)
 pdf("ShelfTAll.pdf")
 do.call('grid.arrange', c(ShelfList, ncol = 2))
 dev.off()
