@@ -1,5 +1,7 @@
 # CoolSafe_FD
 Visualizing output from CoolSafe 9L Freeze-dryer
+Is not optimized to create pdf according to the number of runs. Have to change manually. Example with 16 runs provided in text.  
+In this setup tubes have a height that allows 3 funtioning shelves. Code is easily modifyible to 5 shelves. 
 
 ## Introduction 
 #### Study headline:
